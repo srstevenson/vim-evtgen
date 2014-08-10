@@ -6,7 +6,7 @@ endif
 
 syn case match
 
-syn match decfileNumber '\<\d\+\>'
+syn match decfileNumber '\*\@<!\<\d\+\>'
 syn match decfileNumber '\<[-+]\d\+\>'
 
 syn match decfileFloat '\<\d\+\.\d*'
