@@ -13,6 +13,12 @@ Features
 Installation
 ------------
 
+Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
+
+```vim
+Plug 'stevensons/vim-decfile'
+```
+
 Using [NeoBundle], add the following to your `.vimrc` and run
 `:NeoBundleInstall`:
 
@@ -34,8 +40,8 @@ VAMActivate vim-decfile
 
 Using [pathogen.vim], run:
 
-```bash
-$ git clone git://github.com/stevensons/vim-decfile ~/.vim/bundle/vim-decfile
+```sh
+$ git clone https://github.com/stevensons/vim-decfile ~/.vim/bundle/vim-decfile
 ```
 
 Configuration
@@ -69,5 +75,6 @@ license`][licence] for details.
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
 [percent]: http://vimdoc.sourceforge.net/htmldoc/motion.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
-[vim-decfile]: https://github.com/stevensons/vim-decfile#vim-decfile
+[vim-decfile]: https://github.com/stevensons/vim-decfile
+[vim-plug]: https://github.com/junegunn/vim-plug
 [Vundle]: https://github.com/gmarik/Vundle.vim
