@@ -16,14 +16,15 @@ Installation
 Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
 
 ```vim
-Plug 'srstevenson/vim-decfile'
+Plug 'srstevenson/vim-decfile', { 'for' : 'decfile' }
 ```
 
 Using [NeoBundle], add the following to your `.vimrc` and run
 `:NeoBundleInstall`:
 
 ```vim
-NeoBundle 'srstevenson/vim-decfile'
+NeoBundleLazy 'srstevenson/vim-decfile'
+autocmd FileType decfile NeoBundleSource vim-decfile
 ```
 
 Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
