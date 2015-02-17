@@ -42,7 +42,7 @@ VAMActivate vim-decfile
 Using [pathogen.vim], run:
 
 ```sh
-$ git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
+git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
 ```
 
 Configuration
@@ -63,7 +63,7 @@ Bug reports and patches are welcome on the [issue tracker].
 Licence
 -------
 
-Copyright © 2014 Scott Stevenson.
+Copyright © 2014-2015 Scott Stevenson.
 
 vim-decfile is distributed under the same terms as Vim itself.  See [`:help
 license`][licence] for details.
