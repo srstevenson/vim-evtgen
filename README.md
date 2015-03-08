@@ -15,27 +15,27 @@ Installation
 
 Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
 
-```vim
+```viml
 Plug 'srstevenson/vim-decfile', { 'for' : 'decfile' }
 ```
 
 Using [NeoBundle], add the following to your `.vimrc` and run
 `:NeoBundleInstall`:
 
-```vim
+```viml
 NeoBundleLazy 'srstevenson/vim-decfile'
 autocmd FileType decfile NeoBundleSource vim-decfile
 ```
 
 Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
 
-```vim
+```viml
 Plugin 'srstevenson/vim-decfile'
 ```
 
 Using [VAM], add the following to your `.vimrc`:
 
-```vim
+```viml
 VAMActivate vim-decfile
 ```
 
@@ -51,7 +51,7 @@ Configuration
 To disable folding of `Decay` blocks (enabled by default), add the following to
 your `.vimrc`:
 
-```vim
+```viml
 let g:decfile_disable_folding = 1
 ```
 
