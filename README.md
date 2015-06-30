@@ -71,12 +71,12 @@ vim-decfile is distributed under the same terms as Vim itself.  See [`:help
 license`][licence] for details.
 
 [EvtGen]: http://evtgen.warwick.ac.uk
-[folding]: http://vimdoc.sourceforge.net/htmldoc/fold.html#folding
+[folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [issue tracker]: https://github.com/srstevenson/vim-decfile/issues
-[licence]: http://vimdoc.sourceforge.net/htmldoc/uganda.html#license
+[licence]: https://vimhelp.appspot.com/uganda.txt.html#license
 [NeoBundle]: https://github.com/Shougo/neobundle.vim
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
-[percent]: http://vimdoc.sourceforge.net/htmldoc/motion.html#%
+[percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-plug]: https://github.com/junegunn/vim-plug
