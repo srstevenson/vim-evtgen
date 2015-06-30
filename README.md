@@ -13,13 +13,14 @@ Features
 Installation
 ------------
 
-Using [vim-plug], add the following to your `.vimrc` and run `:PlugInstall`:
+Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
+`:PlugInstall`:
 
 ```viml
 Plug 'srstevenson/vim-decfile', { 'for' : 'decfile' }
 ```
 
-Using [NeoBundle], add the following to your `.vimrc` and run
+Using [NeoBundle], add the following to your `.vimrc`, restart Vim, and run
 `:NeoBundleInstall`:
 
 ```viml
@@ -27,19 +28,20 @@ NeoBundleLazy 'srstevenson/vim-decfile'
 autocmd FileType decfile NeoBundleSource vim-decfile
 ```
 
-Using [Vundle], add the following to your `.vimrc` and run `:PluginInstall`:
+Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
+`:PluginInstall`:
 
 ```viml
 Plugin 'srstevenson/vim-decfile'
 ```
 
-Using [VAM], add the following to your `.vimrc`:
+Using [VAM], add the following to your `.vimrc` and restart Vim:
 
 ```viml
 VAMActivate vim-decfile
 ```
 
-Using [pathogen.vim], run:
+Using [pathogen.vim], run the following in a shell and restart Vim:
 
 ```sh
 git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
