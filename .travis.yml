@@ -5,4 +5,4 @@ install:
   - git clone https://github.com/ynkdir/vim-vimlparser /tmp/vim-vimlparser
 script:
   - vint .
-  - sh /tmp/vim-vimlint/bin/vimlint.sh -l /tmp/vim-vimlint -p /tmp/vim-vimlparser -v .
+  - sh /tmp/vim-vimlint/bin/vimlint.sh -l /tmp/vim-vimlint -p /tmp/vim-vimlparser .
