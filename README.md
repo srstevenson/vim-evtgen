@@ -1,17 +1,14 @@
-vim-decfile
-===========
+# vim-decfile [![Build Status](https://travis-ci.org/srstevenson/vim-decfile.svg?branch=master)](https://travis-ci.org/srstevenson/vim-decfile)
 
 [vim-decfile] is a Vim plugin for [EvtGen] decay files.
 
-Features
---------
+## Features
 
 * Syntax highlighting
 * `Decay` block [folding]
 * Jump between matching `Decay` and `Enddecay` pairs with [`%`][percent]
 
-Installation
-------------
+## Installation
 
 Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
 `:PlugInstall`:
@@ -47,8 +44,7 @@ Using [pathogen.vim], run the following in a shell and restart Vim:
 git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
 ```
 
-Configuration
--------------
+## Configuration
 
 To disable folding of `Decay` blocks (enabled by default), add the following to
 your `.vimrc`:
@@ -57,13 +53,7 @@ your `.vimrc`:
 let g:decfile_disable_folding = 1
 ```
 
-Issues
-------
-
-Bug reports and patches are welcome on the [issue tracker].
-
-Licence
--------
+## Licence
 
 Copyright © 2014-2015 Scott Stevenson.
 
@@ -72,7 +62,6 @@ license`][licence] for details.
 
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
-[issue tracker]: https://github.com/srstevenson/vim-decfile/issues
 [licence]: https://vimhelp.appspot.com/uganda.txt.html#license
 [NeoBundle]: https://github.com/Shougo/neobundle.vim
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
