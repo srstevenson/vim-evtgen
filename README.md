@@ -17,13 +17,6 @@ Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
 Plug 'srstevenson/vim-decfile'
 ```
 
-Using [NeoBundle], add the following to your `.vimrc`, restart Vim, and run
-`:NeoBundleInstall`:
-
-```viml
-NeoBundle 'srstevenson/vim-decfile'
-```
-
 Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
 `:PluginInstall`:
 
@@ -62,7 +55,6 @@ license`][licence] for details.
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [licence]: https://vimhelp.appspot.com/uganda.txt.html#license
-[NeoBundle]: https://github.com/Shougo/neobundle.vim
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
