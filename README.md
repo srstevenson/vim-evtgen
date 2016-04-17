@@ -52,17 +52,9 @@ your `.vimrc`:
 let g:decfile_disable_folding = 1
 ```
 
-## Licence
-
-Copyright © 2014-2016 Scott Stevenson.
-
-vim-decfile is distributed under the same terms as Vim itself.  See [`:help
-license`][licence] for details.
-
 [Dein.vim]: https://github.com/Shougo/dein.vim
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
-[licence]: https://vimhelp.appspot.com/uganda.txt.html#license
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [VAM]: https://github.com/MarcWeber/vim-addon-manager
