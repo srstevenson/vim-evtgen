@@ -17,6 +17,13 @@ Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
 Plug 'srstevenson/vim-decfile'
 ```
 
+Using [Dein.vim], add the following to your `.vimrc`, restart Vim, and run
+`:call dein#install()`:
+
+```viml
+call dein#add('srstevenson/vim-decfile')
+```
+
 Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
 `:PluginInstall`:
 
@@ -52,6 +59,7 @@ Copyright © 2014-2016 Scott Stevenson.
 vim-decfile is distributed under the same terms as Vim itself.  See [`:help
 license`][licence] for details.
 
+[Dein.vim]: https://github.com/Shougo/dein.vim
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [licence]: https://vimhelp.appspot.com/uganda.txt.html#license
