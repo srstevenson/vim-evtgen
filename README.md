@@ -10,28 +10,29 @@
 
 ## Installation
 
-Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
+Using [vim-plug], add the following to your vimrc (`~/.vim/vimrc` for Vim and
+`${XDG_CONFIG_HOME:-~/.config}/nvim/init.vim` for Neovim), restart Vim, and run
 `:PlugInstall`:
 
 ```viml
 Plug 'srstevenson/vim-decfile'
 ```
 
-Using [Dein.vim], add the following to your `.vimrc`, restart Vim, and run
-`:call dein#install()`:
+Using [Dein.vim], add the following to your vimrc, restart Vim, and run `:call
+dein#install()`:
 
 ```viml
 call dein#add('srstevenson/vim-decfile')
 ```
 
-Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
+Using [Vundle], add the following to your vimrc, restart Vim, and run
 `:PluginInstall`:
 
 ```viml
 Plugin 'srstevenson/vim-decfile'
 ```
 
-Using [VAM], add the following to your `.vimrc` and restart Vim:
+Using [VAM], add the following to your vimrc and restart Vim:
 
 ```viml
 VAMActivate vim-decfile
@@ -46,7 +47,7 @@ git clone https://github.com/srstevenson/vim-decfile ~/.vim/bundle/vim-decfile
 ## Configuration
 
 To disable folding of `Decay` blocks (enabled by default), add the following to
-your `.vimrc`:
+your vimrc:
 
 ```viml
 let g:decfile_disable_folding = 1
