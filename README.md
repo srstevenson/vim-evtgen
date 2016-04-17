@@ -14,15 +14,14 @@ Using [vim-plug], add the following to your `.vimrc`, restart Vim, and run
 `:PlugInstall`:
 
 ```viml
-Plug 'srstevenson/vim-decfile', { 'for' : 'decfile' }
+Plug 'srstevenson/vim-decfile'
 ```
 
 Using [NeoBundle], add the following to your `.vimrc`, restart Vim, and run
 `:NeoBundleInstall`:
 
 ```viml
-NeoBundleLazy 'srstevenson/vim-decfile'
-autocmd FileType decfile NeoBundleSource vim-decfile
+NeoBundle 'srstevenson/vim-decfile'
 ```
 
 Using [Vundle], add the following to your `.vimrc`, restart Vim, and run
