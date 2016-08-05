@@ -1,6 +1,6 @@
 # vim-decfile [![Build Status](https://travis-ci.org/srstevenson/vim-decfile.svg?branch=master)](https://travis-ci.org/srstevenson/vim-decfile)
 
-[vim-decfile] is a Vim plugin for [EvtGen] decay files.
+[vim-decfile] is a plugin for [EvtGen] decay files.
 
 ## Features
 
