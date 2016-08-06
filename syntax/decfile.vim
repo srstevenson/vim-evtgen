@@ -1,7 +1,7 @@
 " syntax/decfile.vim
 
 if exists('b:current_syntax')
-    finish
+  finish
 endif
 
 syntax case match
