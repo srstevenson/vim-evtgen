@@ -1,4 +1,6 @@
-" after/ftplugin/decfile.vim
+" vim-decfile: a plugin for EvtGen decay files
+" Maintainer: Scott Stevenson <scott@stevenson.io>
+" Source:     https://github.com/srstevenson/vim-decfile
 
 if exists('loaded_matchit')
   let b:match_words = '\<Decay\>:\<Enddecay\>'

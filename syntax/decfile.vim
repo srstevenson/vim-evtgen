@@ -1,4 +1,6 @@
-" syntax/decfile.vim
+" vim-decfile: a plugin for EvtGen decay files
+" Maintainer: Scott Stevenson <scott@stevenson.io>
+" Source:     https://github.com/srstevenson/vim-decfile
 
 if exists('b:current_syntax')
   finish
