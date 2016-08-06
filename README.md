@@ -41,10 +41,18 @@ your vimrc:
 let g:decfile_disable_folding = 1
 ```
 
+## Copyright
+
+Copyright © 2016 [Scott Stevenson].
+
+vim-decfile is distributed under the terms of the [ISC licence].
+
 [Dein.vim]: https://github.com/Shougo/dein.vim
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
+[ISC licence]: https://opensource.org/licenses/ISC
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
+[Scott Stevenson]: https://scott.stevenson.io
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-plug]: https://github.com/junegunn/vim-plug
 [Vundle]: https://github.com/VundleVim/Vundle.vim
