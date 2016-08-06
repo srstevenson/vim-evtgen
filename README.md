@@ -32,18 +32,6 @@ Using [Vundle], add the following to your vimrc, restart Vim, and run
 Plugin 'srstevenson/vim-decfile'
 ```
 
-Using [VAM], add the following to your vimrc and restart Vim:
-
-```viml
-VAMActivate vim-decfile
-```
-
-Using [pathogen.vim], run the following in a shell and restart Vim:
-
-```sh
-git clone https://github.com/srstevenson/vim-decfile $HOME/.vim/bundle/vim-decfile
-```
-
 ## Configuration
 
 To disable folding of `Decay` blocks (enabled by default), add the following to
@@ -56,9 +44,7 @@ let g:decfile_disable_folding = 1
 [Dein.vim]: https://github.com/Shougo/dein.vim
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
-[pathogen.vim]: https://github.com/tpope/vim-pathogen
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
-[VAM]: https://github.com/MarcWeber/vim-addon-manager
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-plug]: https://github.com/junegunn/vim-plug
 [Vundle]: https://github.com/VundleVim/Vundle.vim
