@@ -12,9 +12,11 @@ set cpoptions&vim
 
 let b:undo_ftplugin = 'setlocal comments< commentstring< formatoptions<'
 
-setlocal comments=:# commentstring=#\ %s
+setlocal comments=:#
+setlocal commentstring=#\ %s
 
-setlocal formatoptions-=t formatoptions+=croql
+setlocal formatoptions-=t
+setlocal formatoptions+=croql
 
 let &cpoptions = s:cpoptions_save
 unlet s:cpoptions_save
