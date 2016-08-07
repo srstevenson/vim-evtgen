@@ -6,6 +6,8 @@
 
 * Syntax highlighting
 * `Decay` block [folding]
+* Automatic closing of `Decay` blocks, adding the matching `Enddecay` (requires
+  [vim-endwise])
 * Jump between matching `Decay` and `Enddecay` pairs with [`%`][percent]
 
 ## Installation
@@ -15,6 +17,7 @@ and `${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim` for Neovim), restart Vim,
 and run `:PlugInstall`:
 
 ```viml
+Plug 'tpope/vim-endwise'
 Plug 'srstevenson/vim-decfile'
 ```
 
@@ -22,13 +25,14 @@ Using [Dein.vim], add the following to your vimrc, restart Vim, and run `:call
 dein#install()`:
 
 ```viml
-call dein#add('srstevenson/vim-decfile')
+call dein#add('srstevenson/vim-decfile', {'depends': 'tpope/vim-endwise'})
 ```
 
 Using [Vundle], add the following to your vimrc, restart Vim, and run
 `:PluginInstall`:
 
 ```viml
+Plugin 'tpope/vim-endwise'
 Plugin 'srstevenson/vim-decfile'
 ```
 
@@ -54,5 +58,6 @@ vim-decfile is distributed under the terms of the [ISC licence].
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [Scott Stevenson]: https://scott.stevenson.io
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
+[vim-endwise]: https://github.com/tpope/vim-endwise
 [vim-plug]: https://github.com/junegunn/vim-plug
 [Vundle]: https://github.com/VundleVim/Vundle.vim
