@@ -2,6 +2,10 @@
 
 [vim-decfile] is a plugin for [EvtGen] decay files.
 
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/5845679/19387231/c57410ee-9210-11e6-9cab-08b38ef19a37.gif" />
+</p>
+
 ## Features
 
 * Syntax highlighting
