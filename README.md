@@ -40,6 +40,22 @@ Plugin 'tpope/vim-endwise'
 Plugin 'srstevenson/vim-decfile'
 ```
 
+If you have Vim 7.4.1840 or newer, you can use the [native package
+support][packages] instead of a plugin manager by cloning vim-decfile into a
+directory under [`packpath`][packpath]. For Vim:
+
+```sh
+git clone https://github.com/srstevenson/vim-decfile \
+    ~/.vim/pack/plugins/start/vim-decfile
+```
+
+For Neovim:
+
+```sh
+git clone https://github.com/srstevenson/vim-decfile \
+    ~/.config/nvim/pack/plugins/start/vim-decfile
+```
+
 ## Configuration
 
 To disable folding of `Decay` blocks (enabled by default), add the following to
@@ -59,6 +75,8 @@ vim-decfile is distributed under the terms of the [ISC licence].
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [ISC licence]: https://opensource.org/licenses/ISC
+[packages]: https://vimhelp.appspot.com/repeat.txt.html#packages
+[packpath]: https://vimhelp.appspot.com/options.txt.html#%27packpath%27
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
 [Scott Stevenson]: https://scott.stevenson.io
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
