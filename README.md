@@ -53,7 +53,7 @@ For Neovim:
 
 ```sh
 git clone https://github.com/srstevenson/vim-decfile \
-    ~/.config/nvim/pack/plugins/start/vim-decfile
+    ${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/pack/plugins/start/vim-decfile
 ```
 
 ## Configuration
