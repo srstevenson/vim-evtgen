@@ -3,7 +3,7 @@
 " Source:     https://github.com/srstevenson/vim-decfile
 
 if exists('b:did_ftplugin')
-  finish
+    finish
 endif
 let b:did_ftplugin = 1
 
@@ -19,14 +19,14 @@ setlocal formatoptions-=t
 setlocal formatoptions+=croql
 
 if exists('loaded_matchit')
-  let b:match_words = '\<Decay\>:\<Enddecay\>'
-  let b:undo_ftplugin .= ' | unlet! b:match_words'
+    let b:match_words = '\<Decay\>:\<Enddecay\>'
+    let b:undo_ftplugin .= ' | unlet! b:match_words'
 endif
 
 if !get(g:, 'decfile_disable_folding')
-  setlocal foldenable
-  setlocal foldmethod=marker
-  setlocal foldmarker=Decay,Enddecay
+    setlocal foldenable
+    setlocal foldmethod=marker
+    setlocal foldmarker=Decay,Enddecay
 endif
 
 let &cpoptions = s:cpoptions_save

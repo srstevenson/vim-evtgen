@@ -3,7 +3,7 @@
 " Source:     https://github.com/srstevenson/vim-decfile
 
 if exists('b:current_syntax')
-  finish
+    finish
 endif
 
 syntax case match
