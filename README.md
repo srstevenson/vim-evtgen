@@ -67,7 +67,7 @@ let g:decfile_disable_folding = 1
 
 ## Copyright
 
-Copyright © 2014-2016 [Scott Stevenson].
+Copyright © 2014-2017 [Scott Stevenson].
 
 vim-decfile is distributed under the terms of the [ISC licence].
 
