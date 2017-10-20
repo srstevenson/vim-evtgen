@@ -16,28 +16,16 @@
 
 ## Installation
 
-Using [vim-plug], add the following to your vimrc (`$HOME/.vim/vimrc` for Vim
-and `${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim` for Neovim), restart Vim,
-and run `:PlugInstall`:
+If you already use a plugin manager such as [vim-plug], [Dein.vim], or
+[Vundle], install vim-decfile and its dependency [vim-endwise] in the normal
+manner. Otherwise, the recommended plugin manager is [minpac]. Add the
+following to your vimrc (`$HOME/.vim/vimrc` for Vim and
+`${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim` for Neovim), restart Vim, and
+run `:call minpac#update()`:
 
 ```viml
-Plug 'tpope/vim-endwise'
-Plug 'srstevenson/vim-decfile'
-```
-
-Using [Dein.vim], add the following to your vimrc, restart Vim, and run `:call
-dein#install()`:
-
-```viml
-call dein#add('srstevenson/vim-decfile', {'depends': 'tpope/vim-endwise'})
-```
-
-Using [Vundle], add the following to your vimrc, restart Vim, and run
-`:PluginInstall`:
-
-```viml
-Plugin 'tpope/vim-endwise'
-Plugin 'srstevenson/vim-decfile'
+call minpac#add('tpope/vim-endwise')
+call minpac#add('srstevenson/vim-decfile')
 ```
 
 If you have Vim 7.4.1840 or newer, you can use the [native package
@@ -75,6 +63,7 @@ vim-decfile is distributed under the terms of the [ISC licence].
 [EvtGen]: http://evtgen.warwick.ac.uk
 [folding]: https://vimhelp.appspot.com/fold.txt.html#folding
 [ISC licence]: https://opensource.org/licenses/ISC
+[minpac]: https://github.com/k-takata/minpac
 [packages]: https://vimhelp.appspot.com/repeat.txt.html#packages
 [packpath]: https://vimhelp.appspot.com/options.txt.html#%27packpath%27
 [percent]: https://vimhelp.appspot.com/motion.txt.html#%
