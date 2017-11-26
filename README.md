@@ -61,12 +61,12 @@ vim-decfile is distributed under the terms of the [ISC licence].
 
 [Dein.vim]: https://github.com/Shougo/dein.vim
 [EvtGen]: http://evtgen.warwick.ac.uk
-[folding]: https://vimhelp.appspot.com/fold.txt.html#folding
+[folding]: https://neovim.io/doc/user/fold.html#folding
 [ISC licence]: https://opensource.org/licenses/ISC
 [minpac]: https://github.com/k-takata/minpac
-[packages]: https://vimhelp.appspot.com/repeat.txt.html#packages
-[packpath]: https://vimhelp.appspot.com/options.txt.html#%27packpath%27
-[percent]: https://vimhelp.appspot.com/motion.txt.html#%
+[packages]: https://neovim.io/doc/user/repeat.html#packages
+[packpath]: https://neovim.io/doc/user/options.html#'packpath'
+[percent]: https://neovim.io/doc/user/motion.html#%
 [Scott Stevenson]: https://scott.stevenson.io
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-endwise]: https://github.com/tpope/vim-endwise
