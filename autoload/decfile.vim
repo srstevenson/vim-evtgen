@@ -12,6 +12,6 @@ function! decfile#CheckIsNumber(variable, name) abort
     " name : String
     "     Name of the variable.
     if type(a:variable) != type(0)
-        echomsg 'Error:' a:name 'must be a number'
+        echoerr 'vim-decfile:' a:name 'must be a number'
     endif
 endfunction
