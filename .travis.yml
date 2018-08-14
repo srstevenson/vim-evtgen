@@ -1,5 +1,6 @@
----
 language: python
+dist: xenial
+sudo: true
 install:
   - pip install vim-vint
   - git clone https://github.com/syngan/vim-vimlint /tmp/vim-vimlint
