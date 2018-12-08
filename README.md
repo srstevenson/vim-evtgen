@@ -8,18 +8,18 @@
 
 ## Features
 
-* Syntax highlighting
-* `Decay` block [folding]
-* Automatic closing of `Decay` blocks, adding the matching `Enddecay` (requires
+- Syntax highlighting
+- `Decay` block [folding]
+- Automatic closing of `Decay` blocks, adding the matching `Enddecay` (requires
   [vim-endwise])
-* Jump between matching `Decay` and `Enddecay` pairs with [`%`][percent]
+- Jump between matching `Decay` and `Enddecay` pairs with [`%`][percent]
 
 ## Installation
 
-If you already use a plugin manager such as [vim-plug], [Dein.vim], or
-[Vundle], install vim-decfile and its dependency [vim-endwise] in the normal
-manner. Otherwise, the recommended plugin manager is [minpac]. Add the
-following to your vimrc (`$HOME/.vim/vimrc` for Vim and
+If you already use a plugin manager such as [vim-plug], [Dein.vim], or [Vundle],
+install vim-decfile and its dependency [vim-endwise] in the normal manner.
+Otherwise, the recommended plugin manager is [minpac]. Add the following to your
+vimrc (`$HOME/.vim/vimrc` for Vim and
 `${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim` for Neovim), restart Vim, and
 run `:call minpac#update()`:
 
@@ -59,16 +59,16 @@ Copyright © 2014-2018 [Scott Stevenson].
 
 vim-decfile is distributed under the terms of the [ISC licence].
 
-[Dein.vim]: https://github.com/Shougo/dein.vim
-[EvtGen]: http://evtgen.warwick.ac.uk
+[dein.vim]: https://github.com/Shougo/dein.vim
+[evtgen]: http://evtgen.warwick.ac.uk
 [folding]: https://neovim.io/doc/user/fold.html#folding
-[ISC licence]: https://opensource.org/licenses/ISC
+[isc licence]: https://opensource.org/licenses/ISC
 [minpac]: https://github.com/k-takata/minpac
 [packages]: https://neovim.io/doc/user/repeat.html#packages
 [packpath]: https://neovim.io/doc/user/options.html#'packpath'
 [percent]: https://neovim.io/doc/user/motion.html#%
-[Scott Stevenson]: https://scott.stevenson.io
+[scott stevenson]: https://scott.stevenson.io
 [vim-decfile]: https://github.com/srstevenson/vim-decfile
 [vim-endwise]: https://github.com/tpope/vim-endwise
 [vim-plug]: https://github.com/junegunn/vim-plug
-[Vundle]: https://github.com/VundleVim/Vundle.vim
+[vundle]: https://github.com/VundleVim/Vundle.vim
