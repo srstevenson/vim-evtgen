@@ -60,7 +60,7 @@ Copyright © 2014-2018 [Scott Stevenson].
 vim-decfile is distributed under the terms of the [ISC licence].
 
 [dein.vim]: https://github.com/Shougo/dein.vim
-[evtgen]: http://evtgen.warwick.ac.uk
+[evtgen]: https://evtgen.hepforge.org/
 [folding]: https://neovim.io/doc/user/fold.html#folding
 [isc licence]: https://opensource.org/licenses/ISC
 [minpac]: https://github.com/k-takata/minpac
