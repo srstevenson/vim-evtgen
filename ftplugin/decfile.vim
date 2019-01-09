@@ -1,6 +1,6 @@
-" vim-decfile: a plugin for EvtGen decay files
+" vim-evtgen: a plugin for EvtGen decay files
 " Maintainer: Scott Stevenson <scott@stevenson.io>
-" Source:     https://github.com/srstevenson/vim-decfile
+" Source:     https://github.com/srstevenson/vim-evtgen
 
 if exists('b:did_ftplugin')
     finish
@@ -23,7 +23,7 @@ if exists('loaded_matchit')
     let b:undo_ftplugin .= ' | unlet! b:match_words'
 endif
 
-if !get(g:, 'decfile_disable_folding')
+if !get(g:, 'evtgen_disable_folding')
     setlocal foldenable
     setlocal foldmethod=marker
     setlocal foldmarker=Decay,Enddecay

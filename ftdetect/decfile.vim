@@ -1,7 +1,7 @@
-" vim-decfile: a plugin for EvtGen decay files
+" vim-evtgen: a plugin for EvtGen decay files
 " Maintainer: Scott Stevenson <scott@stevenson.io>
-" Source:     https://github.com/srstevenson/vim-decfile
+" Source:     https://github.com/srstevenson/vim-evtgen
 
 " vint: -ProhibitAutocmdWithNoGroup
-autocmd BufNewFile,BufRead *.dec setfiletype decfile
+autocmd BufNewFile,BufRead *.dec setfiletype evtgen
 " vint: +ProhibitAutocmdWithNoGroup
