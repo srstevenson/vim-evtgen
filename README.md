@@ -16,10 +16,10 @@
 
 ## Installation
 
-If you already use a plugin manager such as [vim-plug], [Dein.vim], or
-[Vundle], install vim-evtgen and its dependency [vim-endwise] in the normal
-manner. Otherwise, the recommended plugin manager is [minpac]. Add the
-following to your vimrc (`$HOME/.vim/vimrc` for Vim and
+If you already use a plugin manager such as [vim-plug], [Dein.vim], or [Vundle],
+install vim-evtgen and its dependency [vim-endwise] in the normal manner.
+Otherwise, the recommended plugin manager is [minpac]. Add the following to your
+vimrc (`$HOME/.vim/vimrc` for Vim and
 `${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim` for Neovim), restart Vim, and
 run `:call minpac#update()`:
 
