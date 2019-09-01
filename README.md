@@ -1,4 +1,4 @@
-# vim-evtgen [![Build Status](https://travis-ci.org/srstevenson/vim-evtgen.svg?branch=master)](https://travis-ci.org/srstevenson/vim-evtgen)
+# vim-evtgen
 
 [vim-evtgen] is a plugin for [EvtGen] decay files.
 
