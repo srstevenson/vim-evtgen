@@ -2,7 +2,7 @@
 " Maintainer: Scott Stevenson <scott@stevenson.io>
 " Source:     https://github.com/srstevenson/vim-evtgen
 
-function! s:IsNumber(variable) abort
+function! s:is_number(variable) abort
     " Determine if a variable is a number.
     "
     " Parameters
@@ -18,7 +18,7 @@ function! s:IsNumber(variable) abort
 endfunction
 
 if exists('g:evtgen_disable_folding')
-    if !s:IsNumber(g:evtgen_disable_folding)
+    if !s:is_number(g:evtgen_disable_folding)
         echoerr 'vim-evtgen: g:evtgen_disable_folding must be a number'
     endif
 endif
