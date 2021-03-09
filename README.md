@@ -1,5 +1,8 @@
 # vim-evtgen
 
+[![Licence](https://img.shields.io/github/license/srstevenson/vim-evtgen?label=Licence&color=blue)](https://github.com/srstevenson/vim-evtgen/blob/main/LICENCE)
+[![CI status](https://github.com/srstevenson/vim-evtgen/workflows/CI/badge.svg)](https://github.com/srstevenson/vim-evtgen/actions)
+
 [vim-evtgen] is a plugin for [EvtGen] decay files.
 
 <p align="center">
@@ -55,7 +58,7 @@ let g:evtgen_disable_folding = 1
 
 ## Copyright
 
-Copyright © 2014-2020 [Scott Stevenson].
+Copyright © 2014-2021 [Scott Stevenson].
 
 vim-evtgen is distributed under the terms of the [ISC licence].
 
