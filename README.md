@@ -58,7 +58,7 @@ let g:evtgen_disable_folding = 1
 
 ## Copyright
 
-Copyright © 2014-2021 [Scott Stevenson].
+Copyright © [Scott Stevenson].
 
 vim-evtgen is distributed under the terms of the [ISC licence].
 
