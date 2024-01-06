@@ -36,7 +36,7 @@ https://github.com/srstevenson/vim-evtgen/issues
 ==============================================================================
 LICENCE                                                         *evtgen-licence*
 
-Copyright © 2014-2021 Scott Stevenson.
+Copyright © Scott Stevenson.
 
 vim-evtgen is distributed under the terms of the ISC licence.
 
